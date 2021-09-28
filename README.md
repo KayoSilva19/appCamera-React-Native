@@ -18,7 +18,7 @@
     $ git clone <https://github.com/KayoSilva19/appCamera-React-Native.git>
 
     # Acesse a pasta do projeto no terminal/cmd
-    $ cd testeCemera
+    $ cd appCamera-React-Native
 
     # Com o React-Native(EXPO) instalado importe as bibliotecas e execute o projeto
     $ expo install expo-camera
