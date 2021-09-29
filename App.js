@@ -21,7 +21,7 @@ export default function App() {
         })();
 
         (async () => {
-            const { status } = await Permissions.askAsync(Permissions.Permissions.CAMERA_ROLL);
+            const { status } = await Permissions.askAsync(Permissions.CAMERA_ROLL);
             setHasPermission(status === 'granted');
         })();
     }, []);
